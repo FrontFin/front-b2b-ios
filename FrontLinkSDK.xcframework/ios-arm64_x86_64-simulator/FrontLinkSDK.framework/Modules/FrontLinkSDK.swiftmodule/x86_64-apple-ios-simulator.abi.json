@@ -1,0 +1,4852 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetFrontLinkSDK",
+        "printedName": "GetFrontLinkSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "catalogLink",
+            "printedName": "catalogLink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK03GetabC0O07catalogB0SSSgvpZ",
+            "mangledName": "$s12FrontLinkSDK03GetabC0O07catalogB0SSSgvpZ",
+            "moduleName": "FrontLinkSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK03GetabC0O07catalogB0SSSgvgZ",
+                "mangledName": "$s12FrontLinkSDK03GetabC0O07catalogB0SSSgvgZ",
+                "moduleName": "FrontLinkSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK03GetabC0O07catalogB0SSSgvsZ",
+                "mangledName": "$s12FrontLinkSDK03GetabC0O07catalogB0SSSgvsZ",
+                "moduleName": "FrontLinkSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK03GetabC0O07catalogB0SSSgvMZ",
+                "mangledName": "$s12FrontLinkSDK03GetabC0O07catalogB0SSSgvMZ",
+                "moduleName": "FrontLinkSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultBrokersManager",
+            "printedName": "defaultBrokersManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AddBrokersManaging",
+                "printedName": "FrontLinkSDK.AddBrokersManaging",
+                "usr": "s:12FrontLinkSDK18AddBrokersManagingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK03GetabC0O21defaultBrokersManagerAA03AddF8Managing_pvpZ",
+            "mangledName": "$s12FrontLinkSDK03GetabC0O21defaultBrokersManagerAA03AddF8Managing_pvpZ",
+            "moduleName": "FrontLinkSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddBrokersManaging",
+                    "printedName": "FrontLinkSDK.AddBrokersManaging",
+                    "usr": "s:12FrontLinkSDK18AddBrokersManagingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK03GetabC0O21defaultBrokersManagerAA03AddF8Managing_pvgZ",
+                "mangledName": "$s12FrontLinkSDK03GetabC0O21defaultBrokersManagerAA03AddF8Managing_pvgZ",
+                "moduleName": "FrontLinkSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddBrokersManaging",
+                    "printedName": "FrontLinkSDK.AddBrokersManaging",
+                    "usr": "s:12FrontLinkSDK18AddBrokersManagingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK03GetabC0O21defaultBrokersManagerAA03AddF8Managing_pvsZ",
+                "mangledName": "$s12FrontLinkSDK03GetabC0O21defaultBrokersManagerAA03AddF8Managing_pvsZ",
+                "moduleName": "FrontLinkSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK03GetabC0O21defaultBrokersManagerAA03AddF8Managing_pvMZ",
+                "mangledName": "$s12FrontLinkSDK03GetabC0O21defaultBrokersManagerAA03AddF8Managing_pvMZ",
+                "moduleName": "FrontLinkSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(catalogLink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK03GetabC0O5setup07catalogB0ySSSg_tFZ",
+            "mangledName": "$s12FrontLinkSDK03GetabC0O5setup07catalogB0ySSSg_tFZ",
+            "moduleName": "FrontLinkSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectBrokers",
+            "printedName": "connectBrokers(in:brokersManager:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FrontLinkSDK.AddBrokersManaging?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddBrokersManaging",
+                    "printedName": "FrontLinkSDK.AddBrokersManaging",
+                    "usr": "s:12FrontLinkSDK18AddBrokersManagingP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK03GetabC0O14connectBrokers2in14brokersManagerySo16UIViewControllerC_AA03AddF8Managing_pSgtFZ",
+            "mangledName": "$s12FrontLinkSDK03GetabC0O14connectBrokers2in14brokersManagerySo16UIViewControllerC_AA03AddF8Managing_pSgtFZ",
+            "moduleName": "FrontLinkSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12FrontLinkSDK03GetabC0O",
+        "mangledName": "$s12FrontLinkSDK03GetabC0O",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrokerAuthenticationStatus",
+        "printedName": "BrokerAuthenticationStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "succeeded",
+            "printedName": "succeeded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FrontLinkSDK.BrokerAuthenticationStatus.Type) -> FrontLinkSDK.BrokerAuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthenticationStatus",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                    "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrokerAuthenticationStatus",
+                        "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                        "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO9succeededyA2CmF",
+            "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO9succeededyA2CmF",
+            "moduleName": "FrontLinkSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "challengeIssued",
+            "printedName": "challengeIssued",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FrontLinkSDK.BrokerAuthenticationStatus.Type) -> FrontLinkSDK.BrokerAuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthenticationStatus",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                    "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrokerAuthenticationStatus",
+                        "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                        "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO15challengeIssuedyA2CmF",
+            "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO15challengeIssuedyA2CmF",
+            "moduleName": "FrontLinkSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "mfaRequired",
+            "printedName": "mfaRequired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FrontLinkSDK.BrokerAuthenticationStatus.Type) -> FrontLinkSDK.BrokerAuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthenticationStatus",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                    "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrokerAuthenticationStatus",
+                        "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                        "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO11mfaRequiredyA2CmF",
+            "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO11mfaRequiredyA2CmF",
+            "moduleName": "FrontLinkSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FrontLinkSDK.BrokerAuthenticationStatus.Type) -> FrontLinkSDK.BrokerAuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthenticationStatus",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                    "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrokerAuthenticationStatus",
+                        "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                        "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO6failedyA2CmF",
+            "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO6failedyA2CmF",
+            "moduleName": "FrontLinkSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "notAuthorized",
+            "printedName": "notAuthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FrontLinkSDK.BrokerAuthenticationStatus.Type) -> FrontLinkSDK.BrokerAuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthenticationStatus",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                    "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrokerAuthenticationStatus",
+                        "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                        "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO13notAuthorizedyA2CmF",
+            "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO13notAuthorizedyA2CmF",
+            "moduleName": "FrontLinkSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "badRequest",
+            "printedName": "badRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FrontLinkSDK.BrokerAuthenticationStatus.Type) -> FrontLinkSDK.BrokerAuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthenticationStatus",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                    "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrokerAuthenticationStatus",
+                        "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                        "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO10badRequestyA2CmF",
+            "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO10badRequestyA2CmF",
+            "moduleName": "FrontLinkSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "delayed",
+            "printedName": "delayed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FrontLinkSDK.BrokerAuthenticationStatus.Type) -> FrontLinkSDK.BrokerAuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthenticationStatus",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                    "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrokerAuthenticationStatus",
+                        "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                        "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO7delayedyA2CmF",
+            "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO7delayedyA2CmF",
+            "moduleName": "FrontLinkSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FrontLinkSDK.BrokerAuthenticationStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthenticationStatus",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                    "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO8rawValueACSgSS_tcfc",
+            "moduleName": "FrontLinkSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO8rawValueSSvp",
+            "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO8rawValueSSvp",
+            "moduleName": "FrontLinkSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO8rawValueSSvg",
+                "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO8rawValueSSvg",
+                "moduleName": "FrontLinkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO",
+        "mangledName": "$s12FrontLinkSDK26BrokerAuthenticationStatusO",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrokerAuthentication",
+        "printedName": "BrokerAuthentication",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "authToken",
+            "printedName": "authToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK20BrokerAuthenticationV9authTokenSSvp",
+            "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV9authTokenSSvp",
+            "moduleName": "FrontLinkSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK20BrokerAuthenticationV9authTokenSSvg",
+                "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV9authTokenSSvg",
+                "moduleName": "FrontLinkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK20BrokerAuthenticationV4typeSSvp",
+            "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV4typeSSvp",
+            "moduleName": "FrontLinkSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK20BrokerAuthenticationV4typeSSvg",
+                "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV4typeSSvg",
+                "moduleName": "FrontLinkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(authToken:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrokerAuthentication",
+                "printedName": "FrontLinkSDK.BrokerAuthentication",
+                "usr": "s:12FrontLinkSDK20BrokerAuthenticationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FrontLinkSDK20BrokerAuthenticationV9authToken4typeACSS_SStcfc",
+            "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV9authToken4typeACSS_SStcfc",
+            "moduleName": "FrontLinkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK20BrokerAuthenticationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FrontLinkSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK20BrokerAuthenticationV9hashValueSivp",
+            "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV9hashValueSivp",
+            "moduleName": "FrontLinkSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK20BrokerAuthenticationV9hashValueSivg",
+                "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV9hashValueSivg",
+                "moduleName": "FrontLinkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK20BrokerAuthenticationV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV4hash4intoys6HasherVz_tF",
+            "moduleName": "FrontLinkSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BrokerAuthentication",
+                "printedName": "FrontLinkSDK.BrokerAuthentication",
+                "usr": "s:12FrontLinkSDK20BrokerAuthenticationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BrokerAuthentication",
+                "printedName": "FrontLinkSDK.BrokerAuthentication",
+                "usr": "s:12FrontLinkSDK20BrokerAuthenticationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK20BrokerAuthenticationV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV2eeoiySbAC_ACtFZ",
+            "moduleName": "FrontLinkSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12FrontLinkSDK20BrokerAuthenticationV",
+        "mangledName": "$s12FrontLinkSDK20BrokerAuthenticationV",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MessageUI",
+        "printedName": "MessageUI",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrandInfo",
+        "printedName": "BrandInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrandInfo",
+                "printedName": "FrontLinkSDK.BrandInfo",
+                "usr": "s:12FrontLinkSDK9BrandInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FrontLinkSDK9BrandInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12FrontLinkSDK9BrandInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FrontLinkSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK9BrandInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12FrontLinkSDK9BrandInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FrontLinkSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12FrontLinkSDK9BrandInfoV",
+        "mangledName": "$s12FrontLinkSDK9BrandInfoV",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FrontLoadingView",
+        "printedName": "FrontLoadingView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FrontLoadingView",
+                "printedName": "FrontLinkSDK.FrontLoadingView",
+                "usr": "s:12FrontLinkSDK0A11LoadingViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12FrontLinkSDK0A11LoadingViewVACycfc",
+            "mangledName": "$s12FrontLinkSDK0A11LoadingViewVACycfc",
+            "moduleName": "FrontLinkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<FrontLinkSDK.FrontLoadingView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FrontLoadingView",
+                    "printedName": "FrontLinkSDK.FrontLoadingView",
+                    "usr": "s:12FrontLinkSDK0A11LoadingViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK0A11LoadingViewV10makeUIView7contextSo0G0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "mangledName": "$s12FrontLinkSDK0A11LoadingViewV10makeUIView7contextSo0G0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "moduleName": "FrontLinkSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<FrontLinkSDK.FrontLoadingView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FrontLoadingView",
+                    "printedName": "FrontLinkSDK.FrontLoadingView",
+                    "usr": "s:12FrontLinkSDK0A11LoadingViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK0A11LoadingViewV12updateUIView_7contextySo0G0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "mangledName": "$s12FrontLinkSDK0A11LoadingViewV12updateUIView_7contextySo0G0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "moduleName": "FrontLinkSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12FrontLinkSDK0A11LoadingViewV",
+        "mangledName": "$s12FrontLinkSDK0A11LoadingViewV",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrokerAccountable",
+        "printedName": "BrokerAccountable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP2idSSvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP2idSSvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP2idSSvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP2idSSvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP11accessTokenSSSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP11accessTokenSSSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP11accessTokenSSSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP11accessTokenSSSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP11accessTokenSSSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP11accessTokenSSSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP11accessTokenSSSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP11accessTokenSSSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountId",
+            "printedName": "accountId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP9accountIdSSSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP9accountIdSSSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP9accountIdSSSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP9accountIdSSSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP9accountIdSSSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP9accountIdSSSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP9accountIdSSSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP9accountIdSSSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountName",
+            "printedName": "accountName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP11accountNameSSSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP11accountNameSSSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP11accountNameSSSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP11accountNameSSSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP11accountNameSSSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP11accountNameSSSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP11accountNameSSSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP11accountNameSSSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accessTokenUpdatedAt",
+            "printedName": "accessTokenUpdatedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP20accessTokenUpdatedAt10Foundation4DateVSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP20accessTokenUpdatedAt10Foundation4DateVSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP20accessTokenUpdatedAt10Foundation4DateVSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP20accessTokenUpdatedAt10Foundation4DateVSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP20accessTokenUpdatedAt10Foundation4DateVSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP20accessTokenUpdatedAt10Foundation4DateVSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP20accessTokenUpdatedAt10Foundation4DateVSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP20accessTokenUpdatedAt10Foundation4DateVSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brokerType",
+            "printedName": "brokerType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP10brokerTypeSSvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP10brokerTypeSSvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP10brokerTypeSSvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP10brokerTypeSSvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP10brokerTypeSSvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP10brokerTypeSSvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP10brokerTypeSSvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP10brokerTypeSSvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshToken",
+            "printedName": "refreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP12refreshTokenSSSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP12refreshTokenSSSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP12refreshTokenSSSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP12refreshTokenSSSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP12refreshTokenSSSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP12refreshTokenSSSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP12refreshTokenSSSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP12refreshTokenSSSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brokerName",
+            "printedName": "brokerName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP10brokerNameSSSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP10brokerNameSSSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP10brokerNameSSSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP10brokerNameSSSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP10brokerNameSSSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP10brokerNameSSSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP10brokerNameSSSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP10brokerNameSSSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiresInSeconds",
+            "printedName": "expiresInSeconds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP16expiresInSecondsSdSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP16expiresInSecondsSdSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP16expiresInSecondsSdSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP16expiresInSecondsSdSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP16expiresInSecondsSdSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP16expiresInSecondsSdSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP16expiresInSecondsSdSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP16expiresInSecondsSdSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshTokenExpiresInSeconds",
+            "printedName": "refreshTokenExpiresInSeconds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP28refreshTokenExpiresInSecondsSiSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP28refreshTokenExpiresInSecondsSiSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP28refreshTokenExpiresInSecondsSiSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP28refreshTokenExpiresInSecondsSiSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP28refreshTokenExpiresInSecondsSiSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP28refreshTokenExpiresInSecondsSiSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP28refreshTokenExpiresInSecondsSiSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP28refreshTokenExpiresInSecondsSiSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brokerLogoBase64",
+            "printedName": "brokerLogoBase64",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP16brokerLogoBase64SSSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP16brokerLogoBase64SSSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP16brokerLogoBase64SSSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP16brokerLogoBase64SSSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP16brokerLogoBase64SSSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP16brokerLogoBase64SSSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP16brokerLogoBase64SSSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP16brokerLogoBase64SSSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "colorHEX",
+            "printedName": "colorHEX",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP8colorHEXSSSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP8colorHEXSSSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP8colorHEXSSSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP8colorHEXSSSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP8colorHEXSSSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP8colorHEXSSSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP8colorHEXSSSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP8colorHEXSSSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brokerBrandInfo",
+            "printedName": "brokerBrandInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FrontLinkSDK.BrandInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrandInfo",
+                    "printedName": "FrontLinkSDK.BrandInfo",
+                    "usr": "s:12FrontLinkSDK9BrandInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP15brokerBrandInfoAA0gH0VSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP15brokerBrandInfoAA0gH0VSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FrontLinkSDK.BrandInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrandInfo",
+                        "printedName": "FrontLinkSDK.BrandInfo",
+                        "usr": "s:12FrontLinkSDK9BrandInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP15brokerBrandInfoAA0gH0VSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP15brokerBrandInfoAA0gH0VSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FrontLinkSDK.BrandInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrandInfo",
+                        "printedName": "FrontLinkSDK.BrandInfo",
+                        "usr": "s:12FrontLinkSDK9BrandInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP15brokerBrandInfoAA0gH0VSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP15brokerBrandInfoAA0gH0VSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP15brokerBrandInfoAA0gH0VSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP15brokerBrandInfoAA0gH0VSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrokerAuthenticationStatus",
+                "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP6statusAA0D20AuthenticationStatusOvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP6statusAA0D20AuthenticationStatusOvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthenticationStatus",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                    "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP6statusAA0D20AuthenticationStatusOvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP6statusAA0D20AuthenticationStatusOvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthenticationStatus",
+                    "printedName": "FrontLinkSDK.BrokerAuthenticationStatus",
+                    "usr": "s:12FrontLinkSDK26BrokerAuthenticationStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP6statusAA0D20AuthenticationStatusOvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP6statusAA0D20AuthenticationStatusOvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP6statusAA0D20AuthenticationStatusOvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP6statusAA0D20AuthenticationStatusOvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authentication",
+            "printedName": "authentication",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrokerAuthentication",
+                "printedName": "FrontLinkSDK.BrokerAuthentication",
+                "usr": "s:12FrontLinkSDK20BrokerAuthenticationV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP14authenticationAA0D14AuthenticationVvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP14authenticationAA0D14AuthenticationVvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthentication",
+                    "printedName": "FrontLinkSDK.BrokerAuthentication",
+                    "usr": "s:12FrontLinkSDK20BrokerAuthenticationV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP14authenticationAA0D14AuthenticationVvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP14authenticationAA0D14AuthenticationVvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshTokenUpdatedAt",
+            "printedName": "refreshTokenUpdatedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP21refreshTokenUpdatedAt10Foundation4DateVSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP21refreshTokenUpdatedAt10Foundation4DateVSgvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP21refreshTokenUpdatedAt10Foundation4DateVSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP21refreshTokenUpdatedAt10Foundation4DateVSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP21refreshTokenUpdatedAt10Foundation4DateVSgvs",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP21refreshTokenUpdatedAt10Foundation4DateVSgvs",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP21refreshTokenUpdatedAt10Foundation4DateVSgvM",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP21refreshTokenUpdatedAt10Foundation4DateVSgvM",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "needToRefreshToken",
+            "printedName": "needToRefreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP18needToRefreshTokenSbvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP18needToRefreshTokenSbvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP18needToRefreshTokenSbvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountableP18needToRefreshTokenSbvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(broker:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BrokerAccountable",
+                "printedName": "FrontLinkSDK.BrokerAccountable",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK17BrokerAccountableP6update6brokeryAaB_p_tF",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountableP6update6brokeryAaB_p_tF",
+            "moduleName": "FrontLinkSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+            "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "authentication",
+            "printedName": "authentication",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BrokerAuthentication",
+                "printedName": "FrontLinkSDK.BrokerAuthentication",
+                "usr": "s:12FrontLinkSDK20BrokerAuthenticationV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountablePAAE14authenticationAA0D14AuthenticationVvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountablePAAE14authenticationAA0D14AuthenticationVvp",
+            "moduleName": "FrontLinkSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAuthentication",
+                    "printedName": "FrontLinkSDK.BrokerAuthentication",
+                    "usr": "s:12FrontLinkSDK20BrokerAuthenticationV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountablePAAE14authenticationAA0D14AuthenticationVvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountablePAAE14authenticationAA0D14AuthenticationVvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountablePAAE4iconSo7UIImageCSgvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountablePAAE4iconSo7UIImageCSgvp",
+            "moduleName": "FrontLinkSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountablePAAE4iconSo7UIImageCSgvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountablePAAE4iconSo7UIImageCSgvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "needToRefreshToken",
+            "printedName": "needToRefreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK17BrokerAccountablePAAE18needToRefreshTokenSbvp",
+            "mangledName": "$s12FrontLinkSDK17BrokerAccountablePAAE18needToRefreshTokenSbvp",
+            "moduleName": "FrontLinkSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK17BrokerAccountablePAAE18needToRefreshTokenSbvg",
+                "mangledName": "$s12FrontLinkSDK17BrokerAccountablePAAE18needToRefreshTokenSbvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerAccountable>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerAccountable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12FrontLinkSDK17BrokerAccountableP",
+        "mangledName": "$s12FrontLinkSDK17BrokerAccountableP",
+        "moduleName": "FrontLinkSDK",
+        "genericSig": "<τ_0_0 : AnyObject, τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<Self : AnyObject, Self : Swift.Decodable, Self : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AddBrokersManaging",
+        "printedName": "AddBrokersManaging",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "brokers",
+            "printedName": "brokers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FrontLinkSDK.BrokerAccountable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAccountable",
+                    "printedName": "FrontLinkSDK.BrokerAccountable",
+                    "usr": "s:12FrontLinkSDK17BrokerAccountableP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FrontLinkSDK18AddBrokersManagingP7brokersSayAA17BrokerAccountable_pGvp",
+            "mangledName": "$s12FrontLinkSDK18AddBrokersManagingP7brokersSayAA17BrokerAccountable_pGvp",
+            "moduleName": "FrontLinkSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FrontLinkSDK.BrokerAccountable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BrokerAccountable",
+                        "printedName": "FrontLinkSDK.BrokerAccountable",
+                        "usr": "s:12FrontLinkSDK17BrokerAccountableP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FrontLinkSDK18AddBrokersManagingP7brokersSayAA17BrokerAccountable_pGvg",
+                "mangledName": "$s12FrontLinkSDK18AddBrokersManagingP7brokersSayAA17BrokerAccountable_pGvg",
+                "moduleName": "FrontLinkSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.AddBrokersManaging>",
+                "sugared_genericSig": "<Self where Self : FrontLinkSDK.AddBrokersManaging>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(brokers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FrontLinkSDK.BrokerAccountable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAccountable",
+                    "printedName": "FrontLinkSDK.BrokerAccountable",
+                    "usr": "s:12FrontLinkSDK17BrokerAccountableP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK18AddBrokersManagingP3add7brokersySayAA17BrokerAccountable_pG_tF",
+            "mangledName": "$s12FrontLinkSDK18AddBrokersManagingP3add7brokersySayAA17BrokerAccountable_pG_tF",
+            "moduleName": "FrontLinkSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.AddBrokersManaging>",
+            "sugared_genericSig": "<Self where Self : FrontLinkSDK.AddBrokersManaging>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(broker:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BrokerAccountable",
+                "printedName": "FrontLinkSDK.BrokerAccountable",
+                "usr": "s:12FrontLinkSDK17BrokerAccountableP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK18AddBrokersManagingP3add6brokeryAA17BrokerAccountable_p_tF",
+            "mangledName": "$s12FrontLinkSDK18AddBrokersManagingP3add6brokeryAA17BrokerAccountable_p_tF",
+            "moduleName": "FrontLinkSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.AddBrokersManaging>",
+            "sugared_genericSig": "<Self where Self : FrontLinkSDK.AddBrokersManaging>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveBrokers",
+            "printedName": "saveBrokers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK18AddBrokersManagingP04saveE0yyF",
+            "mangledName": "$s12FrontLinkSDK18AddBrokersManagingP04saveE0yyF",
+            "moduleName": "FrontLinkSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.AddBrokersManaging>",
+            "sugared_genericSig": "<Self where Self : FrontLinkSDK.AddBrokersManaging>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12FrontLinkSDK18AddBrokersManagingP",
+        "mangledName": "$s12FrontLinkSDK18AddBrokersManagingP",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "infoGray",
+            "printedName": "infoGray",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIImageC12FrontLinkSDKE8infoGrayABvpZ",
+            "mangledName": "$sSo7UIImageC12FrontLinkSDKE8infoGrayABvpZ",
+            "moduleName": "FrontLinkSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIImageC12FrontLinkSDKE8infoGrayABvgZ",
+                "mangledName": "$sSo7UIImageC12FrontLinkSDKE8infoGrayABvgZ",
+                "moduleName": "FrontLinkSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "resize",
+            "printedName": "resize(with:contentMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentMode",
+                "printedName": "UIKit.UIView.ContentMode",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIViewContentMode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC12FrontLinkSDKE6resize4with11contentModeABSo6CGSizeV_So013UIViewContentH0VtF",
+            "mangledName": "$sSo7UIImageC12FrontLinkSDKE6resize4with11contentModeABSo6CGSizeV_So013UIViewContentH0VtF",
+            "moduleName": "FrontLinkSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WKWebView",
+        "printedName": "WKWebView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "safeAreaInsets",
+            "printedName": "safeAreaInsets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@FrontLinkSDK@@objc(cs)WKWebView(py)safeAreaInsets",
+            "mangledName": "$sSo9WKWebViewC12FrontLinkSDKE14safeAreaInsetsSo06UIEdgeH0Vvp",
+            "moduleName": "FrontLinkSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "safeAreaInsets",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@FrontLinkSDK@@objc(cs)WKWebView(im)safeAreaInsets",
+                "mangledName": "$sSo9WKWebViewC12FrontLinkSDKE14safeAreaInsetsSo06UIEdgeH0Vvg",
+                "moduleName": "FrontLinkSDK",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "safeAreaInsets",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)WKWebView",
+        "moduleName": "WebKit",
+        "isOpen": true,
+        "intro_iOS": "8.0",
+        "objc_name": "WKWebView",
+        "declAttributes": [
+          "Custom",
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selectAssetToTrade",
+            "printedName": "selectAssetToTrade",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea12FrontLinkSDKE18selectAssetToTradeABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea12FrontLinkSDKE18selectAssetToTradeABvpZ",
+            "moduleName": "FrontLinkSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea12FrontLinkSDKE18selectAssetToTradeABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea12FrontLinkSDKE18selectAssetToTradeABvgZ",
+                "moduleName": "FrontLinkSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brokerListUpdated",
+            "printedName": "brokerListUpdated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea12FrontLinkSDKE17brokerListUpdatedABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea12FrontLinkSDKE17brokerListUpdatedABvpZ",
+            "moduleName": "FrontLinkSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea12FrontLinkSDKE17brokerListUpdatedABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea12FrontLinkSDKE17brokerListUpdatedABvgZ",
+                "moduleName": "FrontLinkSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showLoader",
+            "printedName": "showLoader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea12FrontLinkSDKE10showLoaderABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea12FrontLinkSDKE10showLoaderABvpZ",
+            "moduleName": "FrontLinkSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea12FrontLinkSDKE10showLoaderABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea12FrontLinkSDKE10showLoaderABvgZ",
+                "moduleName": "FrontLinkSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIImage+Icons.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 14,
+      "value": "\"ic_info_grey\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIImage+Icons.swift",
+      "kind": "IntegerLiteral",
+      "offset": 469,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIImage+Icons.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/GetFrontLinkSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 14,
+      "value": "\"chevron.left\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/GetFrontLinkSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/FrontFileManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1447,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 3,
+      "value": "247"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 3,
+      "value": "195"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 316,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 11,
+      "value": "\"strokeEnd\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "FloatLiteral",
+      "offset": 588,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "FloatLiteral",
+      "offset": 620,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "FloatLiteral",
+      "offset": 653,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "StringLiteral",
+      "offset": 894,
+      "length": 13,
+      "value": "\"strokeStart\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "FloatLiteral",
+      "offset": 939,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "FloatLiteral",
+      "offset": 973,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1005,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1038,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "StringLiteral",
+      "offset": 1314,
+      "length": 22,
+      "value": "\"transform.rotation.z\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1368,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1400,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Views\/LoadingView\/CircularProgressView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1443,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIAlertController+presentAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 3,
+      "value": "247"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIAlertController+presentAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 338,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIAlertController+presentAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 3,
+      "value": "195"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIAlertController+presentAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 356,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIAlertController+presentAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 367,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIAlertController+presentAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 373,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIAlertController+presentAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 385,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Extensions\/UIAlertController+presentAlert.swift",
+      "kind": "BooleanLiteral",
+      "offset": 512,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/FrontWebViewConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 723,
+      "length": 5,
+      "value": "0.549"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/FrontWebViewConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 737,
+      "length": 5,
+      "value": "0.549"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/FrontWebViewConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 750,
+      "length": 5,
+      "value": "0.561"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/FrontWebViewConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 764,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/FrontWebViewConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 843,
+      "length": 14,
+      "value": "\"chevron.left\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/FrontWebViewConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/CommonJSMessageParser.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 18,
+      "value": "\"jsMessageHandler\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 20,
+      "value": "\"selectAssetToTrade\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 19,
+      "value": "\"brokerListUpdated\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 12,
+      "value": "\"showLoader\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1638,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1677,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1829,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1860,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1965,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2009,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "Dictionary",
+      "offset": 4655,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4946,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/CommonWebViewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1293,
+      "length": 27,
+      "value": "\"FrontLinkSDK.CommonWebViewViewController\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/SDKCommonWebViewManager.swift",
+      "kind": "StringLiteral",
+      "offset": 479,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 6,
+      "value": "\"Skip\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 548,
+      "length": 30,
+      "value": "\"Connect accounts and wallets\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 631,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/BrokerConnectWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 257,
+      "value": "\"Please be informed that all company, product and service names used in this website are for identification purposes only. Use of these names, trademarks and brands does not imply endorsement. The name and trademarks are properties of the respected owners.\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/BrokerConnectWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 30,
+      "value": "\"Broker Connection Disclaimer\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/BrokerConnectWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 697,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/BrokerConnectWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/BrokerConnectWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 826,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/BrokerConnectWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2246,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/BrokerConnectWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3057,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/BrokerConnectWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 138,
+      "length": 30,
+      "value": "\"FrontLinkSDK.BrokerConnectWebViewController\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/AddBrokersManager.swift",
+      "kind": "StringLiteral",
+      "offset": 678,
+      "length": 9,
+      "value": "\"brokers\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/AddBrokersManager.swift",
+      "kind": "Array",
+      "offset": 891,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
+      "kind": "Array",
+      "offset": 521,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 732,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1023,
+      "length": 18,
+      "value": "\"jsMessageHandler\""
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
+      "kind": "Dictionary",
+      "offset": 1088,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
+      "kind": "Dictionary",
+      "offset": 2534,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
