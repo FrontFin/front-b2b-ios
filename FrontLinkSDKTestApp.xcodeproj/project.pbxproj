@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		0B98EE505D656A0AEC97481E /* AccountConnectionsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountConnectionsViewController.storyboard; sourceTree = "<group>"; };
-		11E57DD10A51FD808B21785D /* FrontLinkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FrontLinkSDK.xcframework; path = ../FrontLinkSDKTestApp/FrontLinkSDK.xcframework; sourceTree = "<group>"; };
+		11E57DD10A51FD808B21785D /* FrontLinkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FrontLinkSDK.xcframework; path = "../front-b2b-ios/FrontLinkSDK.xcframework"; sourceTree = "<group>"; };
 		2E6E8BBD76253DAB01A4FD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		330B1195116B7C37A10C885B /* AccountConnectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnectionsViewController.swift; sourceTree = "<group>"; };
 		4673FF0B26D98AA9B624BF86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -331,9 +331,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"../FrontLinkSDKTestApp\"",
+					"\"../front-b2b-ios\"",
 				);
-				INFOPLIST_FILE = ../FrontLinkSDKTestApp/FrontLinkSDKTestApp/Info.plist;
+				INFOPLIST_FILE = "../front-b2b-ios/FrontLinkSDKTestApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -352,9 +352,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"../FrontLinkSDKTestApp\"",
+					"\"../front-b2b-ios\"",
 				);
-				INFOPLIST_FILE = ../FrontLinkSDKTestApp/FrontLinkSDKTestApp/Info.plist;
+				INFOPLIST_FILE = "../front-b2b-ios/FrontLinkSDKTestApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
