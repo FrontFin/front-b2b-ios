@@ -25,15 +25,18 @@ class AccountConnectionCollectionViewCell: UICollectionViewCell {
 }
 
 class AccountConnectionsViewController: UIViewController {
-    private var brokersManager = GetFrontLinkSDK.defaultBrokersManager
     
     @IBOutlet private weak var collectionView: UICollectionView!
 
+    // You can implement your own manager. Just inherit the `BrokersManaging` protocol for your entity.
+    private var brokersManager = GetFrontLinkSDK.defaultBrokersManager
+    internal var brokerConnectViewController: UIViewController?
     private var brokers: [BrokerAccountable] = [] {
         didSet {
             collectionView.reloadData()
         }
     }
+    private let presentBrokerConnectViewControllerModally = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,16 +54,39 @@ class AccountConnectionsViewController: UIViewController {
         navigationItem.rightBarButtonItems = items
     }
 
-    @objc
-    private func connectBrokers() {
+    @objc private func connectBrokers() {
         guard let catalogLink = GetFrontLinkSDK.catalogLink, !catalogLink.isEmpty else {
             fatalError("FrontLinkSDK is not set up properly with a catalogLink")
         }
-        GetFrontLinkSDK.connectBrokers(in: self, brokersManager: brokersManager)
+        brokerConnectViewController = GetFrontLinkSDK.brokerConnectWebViewController(brokersManager: brokersManager, delegate: self)
+        guard let brokerConnectViewController else { return }
+        
+        if presentBrokerConnectViewControllerModally {
+            present(brokerConnectViewController, animated: true)
+        } else {
+            navigationController?.pushViewController(brokerConnectViewController, animated: true)
+        }
     }
 
     @objc private func brokerListUpdated() {
         brokers = brokersManager.brokers
+    }
+}
+
+extension AccountConnectionsViewController: BrokerConnectViewControllerDelegate {
+    func setBrokerConnectViewController(_ viewController: UIViewController) {
+    }
+    
+    func accountsConnected(_ accounts: [FrontLinkSDK.BrokerAccountable]) {
+        print(accounts)
+    }
+    
+    func closeViewController() {
+        if presentBrokerConnectViewControllerModally {
+            brokerConnectViewController?.dismiss(animated: true)
+        } else {
+            brokerConnectViewController?.navigationController?.popViewController(animated: true)
+        }
     }
 }
 

@@ -22,6 +22,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
+Create your view controller that conforms to `BrokerConnectViewControllerDelegate` protocol. This function will be called once a brokerage account(s) has been connected.
+
+```swift
+    func accountsConnected(_ accounts: [FrontLinkSDK.BrokerAccountable]) {
+        ...
+    }
+```
+
+Crreate and present a view controller for brokerage account connection
+
+```swift
+    brokerConnectViewController = GetFrontLinkSDK.brokerConnectWebViewController(brokersManager: brokersManager, delegate: self)
+    present(brokerConnectViewController, animated: true)
+```
+
 ### Store/Load connected accounts
 
 `GetFrontLinkSDK.defaultBrokersManager` stores the connected brokerage account data in the keychain and allows to load it.

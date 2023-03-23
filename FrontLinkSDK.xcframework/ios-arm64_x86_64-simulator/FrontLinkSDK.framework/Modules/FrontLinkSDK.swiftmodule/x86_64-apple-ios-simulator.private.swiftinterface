@@ -21,7 +21,8 @@ public enum GetFrontLinkSDK {
   public static var catalogLink: Swift.String?
   public static var defaultBrokersManager: FrontLinkSDK.AddBrokersManaging
   public static func setup(catalogLink: Swift.String? = nil)
-  public static func connectBrokers(in viewController: UIKit.UIViewController, brokersManager: FrontLinkSDK.AddBrokersManaging? = nil)
+  public static func connectBrokers(in viewController: UIKit.UIViewController, brokersManager: FrontLinkSDK.AddBrokersManaging? = nil, delegate: FrontLinkSDK.BrokerConnectViewControllerDelegate) -> UIKit.UIViewController?
+  public static func brokerConnectWebViewController(brokersManager: FrontLinkSDK.AddBrokersManaging? = nil, delegate: FrontLinkSDK.BrokerConnectViewControllerDelegate) -> UIKit.UIViewController
 }
 public enum BrokerAuthenticationStatus : Swift.String, Swift.Codable {
   case succeeded
@@ -36,6 +37,11 @@ public enum BrokerAuthenticationStatus : Swift.String, Swift.Codable {
   public var rawValue: Swift.String {
     get
   }
+}
+public protocol BrokerConnectViewControllerDelegate {
+  func setBrokerConnectViewController(_ viewController: UIKit.UIViewController)
+  func accountsConnected(_ accounts: [FrontLinkSDK.BrokerAccountable])
+  func closeViewController()
 }
 public struct BrokerAuthentication : Swift.Encodable, Swift.Hashable {
   public let authToken: Swift.String

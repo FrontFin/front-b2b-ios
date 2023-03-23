@@ -289,12 +289,21 @@
           {
             "kind": "Function",
             "name": "connectBrokers",
-            "printedName": "connectBrokers(in:brokersManager:)",
+            "printedName": "connectBrokers(in:brokersManager:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -316,11 +325,60 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BrokerConnectViewControllerDelegate",
+                "printedName": "FrontLinkSDK.BrokerConnectViewControllerDelegate",
+                "usr": "s:12FrontLinkSDK35BrokerConnectViewControllerDelegateP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12FrontLinkSDK03GetabC0O14connectBrokers2in14brokersManagerySo16UIViewControllerC_AA03AddF8Managing_pSgtFZ",
-            "mangledName": "$s12FrontLinkSDK03GetabC0O14connectBrokers2in14brokersManagerySo16UIViewControllerC_AA03AddF8Managing_pSgtFZ",
+            "usr": "s:12FrontLinkSDK03GetabC0O14connectBrokers2in14brokersManager8delegateSo16UIViewControllerCSgAI_AA03AddF8Managing_pSgAA017BrokerConnectViewL8Delegate_ptFZ",
+            "mangledName": "$s12FrontLinkSDK03GetabC0O14connectBrokers2in14brokersManager8delegateSo16UIViewControllerCSgAI_AA03AddF8Managing_pSgAA017BrokerConnectViewL8Delegate_ptFZ",
+            "moduleName": "FrontLinkSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "brokerConnectWebViewController",
+            "printedName": "brokerConnectWebViewController(brokersManager:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FrontLinkSDK.AddBrokersManaging?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AddBrokersManaging",
+                    "printedName": "FrontLinkSDK.AddBrokersManaging",
+                    "usr": "s:12FrontLinkSDK18AddBrokersManagingP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BrokerConnectViewControllerDelegate",
+                "printedName": "FrontLinkSDK.BrokerConnectViewControllerDelegate",
+                "usr": "s:12FrontLinkSDK35BrokerConnectViewControllerDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK03GetabC0O30brokerConnectWebViewController14brokersManager8delegateSo06UIViewI0CAA18AddBrokersManaging_pSg_AA06BrokerfhI8Delegate_ptFZ",
+            "mangledName": "$s12FrontLinkSDK03GetabC0O30brokerConnectWebViewController14brokersManager8delegateSo06UIViewI0CAA18AddBrokersManaging_pSg_AA06BrokerfhI8Delegate_ptFZ",
             "moduleName": "FrontLinkSDK",
             "static": true,
             "declAttributes": [
@@ -822,6 +880,123 @@
         "declKind": "Import",
         "moduleName": "FrontLinkSDK",
         "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BrokerConnectViewControllerDelegate",
+        "printedName": "BrokerConnectViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setBrokerConnectViewController",
+            "printedName": "setBrokerConnectViewController(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK35BrokerConnectViewControllerDelegateP03setdefG0yySo06UIViewG0CF",
+            "mangledName": "$s12FrontLinkSDK35BrokerConnectViewControllerDelegateP03setdefG0yySo06UIViewG0CF",
+            "moduleName": "FrontLinkSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerConnectViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerConnectViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "accountsConnected",
+            "printedName": "accountsConnected(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FrontLinkSDK.BrokerAccountable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BrokerAccountable",
+                    "printedName": "FrontLinkSDK.BrokerAccountable",
+                    "usr": "s:12FrontLinkSDK17BrokerAccountableP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK35BrokerConnectViewControllerDelegateP17accountsConnectedyySayAA0D11Accountable_pGF",
+            "mangledName": "$s12FrontLinkSDK35BrokerConnectViewControllerDelegateP17accountsConnectedyySayAA0D11Accountable_pGF",
+            "moduleName": "FrontLinkSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerConnectViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerConnectViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeViewController",
+            "printedName": "closeViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12FrontLinkSDK35BrokerConnectViewControllerDelegateP05closefG0yyF",
+            "mangledName": "$s12FrontLinkSDK35BrokerConnectViewControllerDelegateP05closefG0yyF",
+            "moduleName": "FrontLinkSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FrontLinkSDK.BrokerConnectViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : FrontLinkSDK.BrokerConnectViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12FrontLinkSDK35BrokerConnectViewControllerDelegateP",
+        "mangledName": "$s12FrontLinkSDK35BrokerConnectViewControllerDelegateP",
+        "moduleName": "FrontLinkSDK",
+        "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -4676,49 +4851,49 @@
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Models\/SDKCommonWebViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 479,
+      "offset": 389,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 399,
+      "offset": 326,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 417,
+      "offset": 344,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 414,
       "length": 6,
       "value": "\"Skip\""
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 504,
+      "offset": 431,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 548,
+      "offset": 475,
       "length": 30,
       "value": "\"Connect accounts and wallets\""
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonBrokerConnectWebViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 631,
+      "offset": 558,
       "length": 5,
       "value": "false"
     },
@@ -4760,14 +4935,14 @@
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/BrokerConnectWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2246,
+      "offset": 2018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/ViewControllers\/BrokerConnectWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3057,
+      "offset": 2829,
       "length": 5,
       "value": "false"
     },
@@ -4809,42 +4984,42 @@
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
       "kind": "Array",
-      "offset": 521,
+      "offset": 468,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 644,
+      "offset": 591,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 732,
+      "offset": 679,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 937,
       "length": 18,
       "value": "\"jsMessageHandler\""
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
       "kind": "Dictionary",
-      "offset": 1088,
+      "offset": 1002,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexander\/Documents\/Front.Mobile.iOS\/FrontLinkSDK\/Protocols\/CommonWebViewViewModel.swift",
       "kind": "Dictionary",
-      "offset": 2534,
+      "offset": 2498,
       "length": 3,
       "value": "[]"
     }
