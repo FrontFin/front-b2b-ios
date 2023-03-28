@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0396243DF3B9B22B9D44D5BD /* AccountConnectionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB37FD99E7982892F9F594DB /* AccountConnectionsViewModel.swift */; };
 		0F0FBDEAAB7A7A17939F574D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472E2B940E09ED0F66824B53 /* Assets.xcassets */; };
 		13D52841EC68FA1048E8B1BD /* AccountConnectionsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B98EE505D656A0AEC97481E /* AccountConnectionsViewController.storyboard */; };
+		22EF697CB9312058FFDA4380 /* AccountConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53BE8F6F292002A66C2A19F /* AccountConnectionView.swift */; };
 		2B25F04B3CCF71F89AF797BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F529BF449C47860FB5EE8C /* LaunchScreen.storyboard */; };
 		49E90290A20DF41928C6CF8C /* AccountConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B1195116B7C37A10C885B /* AccountConnectionsViewController.swift */; };
 		5FDDC783B7225E3A7682D3EA /* FrontLinkSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E57DD10A51FD808B21785D /* FrontLinkSDK.xcframework */; };
 		7B61A79C65B59F5266400113 /* FrontLinkSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11E57DD10A51FD808B21785D /* FrontLinkSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		802DE25C6B622C71CF9740A1 /* BrokersConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C58DFBF9FD3E16B536F9 /* BrokersConnectView.swift */; };
 		812B43A087B7F6E1253B79AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8C6A483C36D4A93DE797F /* Main.storyboard */; };
 		8FEA455B5E3A993A8A01FCED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E3F02EB25D4E81A273EA6 /* AppDelegate.swift */; };
+		9B62ECBA541F413FDF497EBA /* AccountConnectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A9458D8F5D1836E9104BA /* AccountConnectionsView.swift */; };
 		B6AC07C178DBA358AAD7FB48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FF0B26D98AA9B624BF86 /* SceneDelegate.swift */; };
+		BA4275E040B8A4D80D1E5F2D /* MockBrokersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20F2B1B4FE3B52E5F11539 /* MockBrokersManager.swift */; };
 		C358DC4691B92BB4A275EBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A8AA8B1D85AFBE1FC71E5 /* ViewController.swift */; };
+		F2C13A1F51F924178E1DE245 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFD712FCCB9CFBEB8FD9557 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,10 +47,16 @@
 		4673FF0B26D98AA9B624BF86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		472E2B940E09ED0F66824B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72CC51E18FE0A1F7163201CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8485C58DFBF9FD3E16B536F9 /* BrokersConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokersConnectView.swift; sourceTree = "<group>"; };
 		868A8AA8B1D85AFBE1FC71E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D6BC8A7B4FE080D39A6F38C /* FrontLinkSDKTestApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FrontLinkSDKTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1A9458D8F5D1836E9104BA /* AccountConnectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnectionsView.swift; sourceTree = "<group>"; };
 		AA9E3F02EB25D4E81A273EA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B53BE8F6F292002A66C2A19F /* AccountConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnectionView.swift; sourceTree = "<group>"; };
+		BB37FD99E7982892F9F594DB /* AccountConnectionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnectionsViewModel.swift; sourceTree = "<group>"; };
+		DA20F2B1B4FE3B52E5F11539 /* MockBrokersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBrokersManager.swift; sourceTree = "<group>"; };
 		DE4DA1D5FBDBF995E5B80466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEFD712FCCB9CFBEB8FD9557 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0855EC378F39DDB709B2A880 /* AccountConnectionsView */ = {
+			isa = PBXGroup;
+			children = (
+				9B1A9458D8F5D1836E9104BA /* AccountConnectionsView.swift */,
+				BB37FD99E7982892F9F594DB /* AccountConnectionsViewModel.swift */,
+				DA20F2B1B4FE3B52E5F11539 /* MockBrokersManager.swift */,
+			);
+			path = AccountConnectionsView;
+			sourceTree = "<group>";
+		};
+		4A1A0B6CF43C6BF6AD05211F /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				0855EC378F39DDB709B2A880 /* AccountConnectionsView */,
+				DCF1A349C6887E309942013C /* AccountConnectionView */,
+				F00A8F2C2E63139D27C709D7 /* BrokersConnectView */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		6DE48202D8A11ED73630EBBD = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +98,14 @@
 				C6500BD2DBF32538EBEF3610 /* Frameworks */,
 				F20CE94DF17C752387E5309F /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		8D77DEA4AC6CCFEFF8C87E3B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FEFD712FCCB9CFBEB8FD9557 /* Color+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		AA94A136050CE96EBE98BA1F /* FrontLinkSDKTestApp */ = {
@@ -80,6 +120,8 @@
 				8CE8C6A483C36D4A93DE797F /* Main.storyboard */,
 				4673FF0B26D98AA9B624BF86 /* SceneDelegate.swift */,
 				868A8AA8B1D85AFBE1FC71E5 /* ViewController.swift */,
+				8D77DEA4AC6CCFEFF8C87E3B /* Extensions */,
+				4A1A0B6CF43C6BF6AD05211F /* SwiftUI */,
 			);
 			path = FrontLinkSDKTestApp;
 			sourceTree = "<group>";
@@ -90,6 +132,22 @@
 				11E57DD10A51FD808B21785D /* FrontLinkSDK.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCF1A349C6887E309942013C /* AccountConnectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B53BE8F6F292002A66C2A19F /* AccountConnectionView.swift */,
+			);
+			path = AccountConnectionView;
+			sourceTree = "<group>";
+		};
+		F00A8F2C2E63139D27C709D7 /* BrokersConnectView */ = {
+			isa = PBXGroup;
+			children = (
+				8485C58DFBF9FD3E16B536F9 /* BrokersConnectView.swift */,
+			);
+			path = BrokersConnectView;
 			sourceTree = "<group>";
 		};
 		F20CE94DF17C752387E5309F /* Products */ = {
@@ -170,8 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22EF697CB9312058FFDA4380 /* AccountConnectionView.swift in Sources */,
+				9B62ECBA541F413FDF497EBA /* AccountConnectionsView.swift in Sources */,
 				49E90290A20DF41928C6CF8C /* AccountConnectionsViewController.swift in Sources */,
+				0396243DF3B9B22B9D44D5BD /* AccountConnectionsViewModel.swift in Sources */,
 				8FEA455B5E3A993A8A01FCED /* AppDelegate.swift in Sources */,
+				802DE25C6B622C71CF9740A1 /* BrokersConnectView.swift in Sources */,
+				F2C13A1F51F924178E1DE245 /* Color+Extension.swift in Sources */,
+				BA4275E040B8A4D80D1E5F2D /* MockBrokersManager.swift in Sources */,
 				B6AC07C178DBA358AAD7FB48 /* SceneDelegate.swift in Sources */,
 				C358DC4691B92BB4A275EBF5 /* ViewController.swift in Sources */,
 			);

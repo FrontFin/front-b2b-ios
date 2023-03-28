@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/FrontLinkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sok07eHW82NmczF66XFIYlsm3JE=
+		1IhRkIK/i2wVfHOpvZoEOE1ctOE=
 		</data>
 		<key>Modules/FrontLinkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/FrontLinkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9oTWLdkm+WEA+zV5dwHeB4e6qq0=
+		KObADGF50mD+sqeSF/vDCLo+dW0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -142,7 +142,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O1c3zaHGQD1rNnZgNOomwlEE1utaIipsTRipncn/cCg=
+			98IydlwYJvVdVcf8NxoeArWjx6BXBJQDthqQc9NVvsI=
 			</data>
 		</dict>
 		<key>Modules/FrontLinkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lmqlm5iVOExOtZ8BC6YbMZtW9s+2YMqLvQiFyGbTGNA=
+			NvadPeTGJlaT780zAaOJe4f9DMDenDE1zGZjlAafg5Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

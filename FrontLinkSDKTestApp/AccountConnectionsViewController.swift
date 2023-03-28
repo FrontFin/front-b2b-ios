@@ -28,7 +28,7 @@ class AccountConnectionsViewController: UIViewController {
     
     @IBOutlet private weak var collectionView: UICollectionView!
 
-    // You can implement your own manager. Just inherit the `BrokersManaging` protocol for your entity.
+    // You can implement your own manager. Just inherit the `AddBrokersManaging` protocol for your entity.
     private var brokersManager = GetFrontLinkSDK.defaultBrokersManager
     internal var brokerConnectViewController: UIViewController?
     private var brokers: [BrokerAccountable] = [] {
