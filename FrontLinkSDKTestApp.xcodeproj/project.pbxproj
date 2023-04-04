@@ -13,8 +13,6 @@
 		22EF697CB9312058FFDA4380 /* AccountConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53BE8F6F292002A66C2A19F /* AccountConnectionView.swift */; };
 		2B25F04B3CCF71F89AF797BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F529BF449C47860FB5EE8C /* LaunchScreen.storyboard */; };
 		49E90290A20DF41928C6CF8C /* AccountConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B1195116B7C37A10C885B /* AccountConnectionsViewController.swift */; };
-		5FDDC783B7225E3A7682D3EA /* FrontLinkSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E57DD10A51FD808B21785D /* FrontLinkSDK.xcframework */; };
-		7B61A79C65B59F5266400113 /* FrontLinkSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11E57DD10A51FD808B21785D /* FrontLinkSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		802DE25C6B622C71CF9740A1 /* BrokersConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C58DFBF9FD3E16B536F9 /* BrokersConnectView.swift */; };
 		812B43A087B7F6E1253B79AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8C6A483C36D4A93DE797F /* Main.storyboard */; };
 		8FEA455B5E3A993A8A01FCED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E3F02EB25D4E81A273EA6 /* AppDelegate.swift */; };
@@ -22,26 +20,12 @@
 		B6AC07C178DBA358AAD7FB48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FF0B26D98AA9B624BF86 /* SceneDelegate.swift */; };
 		BA4275E040B8A4D80D1E5F2D /* MockBrokersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20F2B1B4FE3B52E5F11539 /* MockBrokersManager.swift */; };
 		C358DC4691B92BB4A275EBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A8AA8B1D85AFBE1FC71E5 /* ViewController.swift */; };
+		D326E4E182C93F8C3CB44EDA /* FrontLinkSDKPackage in Frameworks */ = {isa = PBXBuildFile; productRef = C2FF4247767D1D732AC70520 /* FrontLinkSDKPackage */; };
 		F2C13A1F51F924178E1DE245 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFD712FCCB9CFBEB8FD9557 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		659C1274A09E9DE7B85F18B7 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7B61A79C65B59F5266400113 /* FrontLinkSDK.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		0B98EE505D656A0AEC97481E /* AccountConnectionsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountConnectionsViewController.storyboard; sourceTree = "<group>"; };
-		11E57DD10A51FD808B21785D /* FrontLinkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FrontLinkSDK.xcframework; path = "../front-b2b-ios/FrontLinkSDK.xcframework"; sourceTree = "<group>"; };
 		2E6E8BBD76253DAB01A4FD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		330B1195116B7C37A10C885B /* AccountConnectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnectionsViewController.swift; sourceTree = "<group>"; };
 		4673FF0B26D98AA9B624BF86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDDC783B7225E3A7682D3EA /* FrontLinkSDK.xcframework in Frameworks */,
+				D326E4E182C93F8C3CB44EDA /* FrontLinkSDKPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				AA94A136050CE96EBE98BA1F /* FrontLinkSDKTestApp */,
-				C6500BD2DBF32538EBEF3610 /* Frameworks */,
 				F20CE94DF17C752387E5309F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,14 +107,6 @@
 				4A1A0B6CF43C6BF6AD05211F /* SwiftUI */,
 			);
 			path = FrontLinkSDKTestApp;
-			sourceTree = "<group>";
-		};
-		C6500BD2DBF32538EBEF3610 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				11E57DD10A51FD808B21785D /* FrontLinkSDK.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DCF1A349C6887E309942013C /* AccountConnectionView */ = {
@@ -168,13 +143,15 @@
 				92597B67CB69651F1D4138C1 /* Sources */,
 				6D5CBDDE9B0B658D0C90389A /* Resources */,
 				282453879694DA664AA2BB96 /* Frameworks */,
-				659C1274A09E9DE7B85F18B7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FrontLinkSDKTestApp;
+			packageProductDependencies = (
+				C2FF4247767D1D732AC70520 /* FrontLinkSDKPackage */,
+			);
 			productName = FrontLinkSDKTestApp;
 			productReference = 8D6BC8A7B4FE080D39A6F38C /* FrontLinkSDKTestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -201,6 +178,9 @@
 				en,
 			);
 			mainGroup = 6DE48202D8A11ED73630EBBD;
+			packageReferences = (
+				9D696A4A44D71DD7E19FB747 /* XCRemoteSwiftPackageReference "front-b2b-ios-sdk" */,
+			);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -316,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -376,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -393,10 +373,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"../front-b2b-ios\"",
-				);
 				INFOPLIST_FILE = "../front-b2b-ios/FrontLinkSDKTestApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -414,10 +390,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"../front-b2b-ios\"",
-				);
 				INFOPLIST_FILE = "../front-b2b-ios/FrontLinkSDKTestApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,6 +424,25 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D696A4A44D71DD7E19FB747 /* XCRemoteSwiftPackageReference "front-b2b-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FrontFin/front-b2b-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2FF4247767D1D732AC70520 /* FrontLinkSDKPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D696A4A44D71DD7E19FB747 /* XCRemoteSwiftPackageReference "front-b2b-ios-sdk" */;
+			productName = FrontLinkSDKPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41A7714F6C6E6C900E884506 /* Project object */;
 }
