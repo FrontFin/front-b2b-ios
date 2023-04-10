@@ -42,6 +42,7 @@ fileprivate struct _BrokersConnectView: UIViewControllerRepresentable {
     func makeUIViewController(context: UIViewControllerRepresentableContext<_BrokersConnectView>) -> UIViewController {
         let brokerConnectViewController = GetFrontLinkSDK.brokerConnectWebViewController(brokersManager: brokersManager, delegate: self)
         let nav = UINavigationController(rootViewController: brokerConnectViewController)
+        nav.setNavigationBarHidden(true, animated: false)
         nav.modalPresentationStyle = .fullScreen
         return nav
     }
@@ -49,14 +50,38 @@ fileprivate struct _BrokersConnectView: UIViewControllerRepresentable {
      func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
 }
 
+var brokerConnectViewController: UIViewController?
+
 extension _BrokersConnectView: BrokerConnectViewControllerDelegate {
-    func setBrokerConnectViewController(_ viewController: UIViewController) {}
+    
+    func setBrokerConnectViewController(_ viewController: UIViewController) {
+        brokerConnectViewController = viewController
+    }
     
     func accountsConnected(_ accounts: [FrontLinkSDK.BrokerAccountable]) {
         print(accounts)
     }
     
-    func closeViewController() {
-        onClose?()
+    func closeViewController(withConfirmation: Bool) {
+        guard let brokerConnectViewController, withConfirmation else {
+            onClose?()
+            return
+        }
+        let alert = UIAlertController(title: "Are you sure you want to exit?", message: "Your progress will be lost.", preferredStyle: .alert)
+        alert.overrideUserInterfaceStyle = .light
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+            onClose?()
+        }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        brokerConnectViewController.present(alert, animated: true)
     }
+    
+    func showProgress() {
+        brokerConnectViewController?.showFrontLoader()
+    }
+    
+    func hideProgress() {
+        brokerConnectViewController?.removeFrontLoader()
+    }
+    
 }

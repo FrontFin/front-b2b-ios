@@ -64,6 +64,7 @@ class AccountConnectionsViewController: UIViewController {
         if presentBrokerConnectViewControllerModally {
             present(brokerConnectViewController, animated: true)
         } else {
+            navigationController?.setNavigationBarHidden(true, animated: true)
             navigationController?.pushViewController(brokerConnectViewController, animated: true)
         }
     }
@@ -81,13 +82,36 @@ extension AccountConnectionsViewController: BrokerConnectViewControllerDelegate 
         print(accounts)
     }
     
-    func closeViewController() {
-        if presentBrokerConnectViewControllerModally {
-            brokerConnectViewController?.dismiss(animated: true)
-        } else {
-            brokerConnectViewController?.navigationController?.popViewController(animated: true)
+    func closeViewController(withConfirmation: Bool) {
+        let onClose = {
+            if self.presentBrokerConnectViewControllerModally {
+                self.brokerConnectViewController?.dismiss(animated: true)
+            } else {
+                self.brokerConnectViewController?.navigationController?.setNavigationBarHidden(false, animated: true)
+                self.brokerConnectViewController?.navigationController?.popViewController(animated: true)
+            }
         }
+        guard let brokerConnectViewController, withConfirmation else {
+            onClose()
+            return
+        }
+        let alert = UIAlertController(title: "Are you sure you want to exit?", message: "Your progress will be lost.", preferredStyle: .alert)
+        alert.overrideUserInterfaceStyle = .light
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+            onClose()
+        }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        brokerConnectViewController.present(alert, animated: true)
     }
+    
+    func showProgress() {
+        brokerConnectViewController?.showFrontLoader()
+    }
+    
+    func hideProgress() {
+        brokerConnectViewController?.removeFrontLoader()
+    }
+    
 }
 
 extension AccountConnectionsViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
