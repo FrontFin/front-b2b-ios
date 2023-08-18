@@ -1,6 +1,6 @@
 //
 //  AccountConnectionsViewController.swift
-//  FrontSDKTestApp
+//  FrontLinkSDKTestApp
 //
 //  Created by Alex Bibikov on 19.10.2022.
 //
@@ -52,10 +52,13 @@ class AccountConnectionsViewController: UIViewController {
         
         items.append(UIBarButtonItem(image: UIImage(systemName: "plus"), style: .plain, target: self, action: #selector(connectBrokers)))
         navigationItem.rightBarButtonItems = items
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "chevron.left"), style: .plain, target: self, action: #selector(dismissViewController))
     }
 
     @objc private func connectBrokers() {
-        guard let catalogLink = GetFrontLinkSDK.catalogLink, !catalogLink.isEmpty else {
+        guard let urlString = GetFrontLinkSDK.catalogLink,
+              let url = URL(string: urlString),
+              UIApplication.shared.canOpenURL(url) else {
             fatalError("FrontLinkSDK is not set up properly with a catalogLink")
         }
         brokerConnectViewController = GetFrontLinkSDK.brokerConnectWebViewController(brokersManager: brokersManager, delegate: self)
@@ -67,6 +70,10 @@ class AccountConnectionsViewController: UIViewController {
             navigationController?.setNavigationBarHidden(true, animated: true)
             navigationController?.pushViewController(brokerConnectViewController, animated: true)
         }
+    }
+    
+    @objc private func dismissViewController() {
+        dismiss(animated: true)
     }
 
     @objc private func brokerListUpdated() {
@@ -80,6 +87,9 @@ extension AccountConnectionsViewController: BrokerConnectViewControllerDelegate 
     
     func accountsConnected(_ accounts: [FrontLinkSDK.BrokerAccountable]) {
         print(accounts)
+    }
+    
+    func transferFinished(_ transfer: FrontLinkSDK.TransferFinished) {
     }
     
     func closeViewController(withConfirmation: Bool) {

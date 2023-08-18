@@ -62,6 +62,18 @@ extension _BrokersConnectView: BrokerConnectViewControllerDelegate {
         print(accounts)
     }
     
+    func transferFinished(_ transfer: FrontLinkSDK.TransferFinished) {
+        guard let brokerConnectViewController else { return }
+        var message: String
+        switch transfer.status {
+        case .transferFinishedSuccess:
+            message = "Transfer ID:\(transfer.txId ?? "")\nnetworkId: \(transfer.networkId ?? "")\nAmount:\(transfer.amount ?? 0)\nSymbol:\(transfer.symbol ?? "")"
+        case .transferFinishedError:
+            message = "Transfer failed: \(transfer.errorMessage ?? "")"
+        }
+        UIAlertController.presentAlert(title: "Transfer Finished", message: message, alignment: .left, presenter: brokerConnectViewController)
+    }
+    
     func closeViewController(withConfirmation: Bool) {
         guard let brokerConnectViewController, withConfirmation else {
             onClose?()

@@ -10,6 +10,7 @@ import FrontLinkSDK
 
 struct AccountConnectionsView: View {
     @State private var showingConnectBrokers = false
+    @Environment(\.dismiss) var dismiss
 
     let publisher = NotificationCenter.default.publisher(for: .brokerListUpdated)
     
@@ -36,11 +37,21 @@ struct AccountConnectionsView: View {
                 viewModel.getAccounts()
             }
             .toolbar {
-                Button {
-                   showingConnectBrokers = true
-                } label: {
-                    Image(systemName: "plus")
-                        .foregroundColor(.blue)
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                       dismiss()
+                    } label: {
+                        Image(systemName: "chevron.left")
+                            .foregroundColor(.blue)
+                    }
+                }
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button {
+                        showingConnectBrokers = true
+                    } label: {
+                        Image(systemName: "plus")
+                            .foregroundColor(.blue)
+                    }
                 }
             }
         }

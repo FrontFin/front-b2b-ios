@@ -9,35 +9,41 @@
 /* Begin PBXBuildFile section */
 		0396243DF3B9B22B9D44D5BD /* AccountConnectionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB37FD99E7982892F9F594DB /* AccountConnectionsViewModel.swift */; };
 		0F0FBDEAAB7A7A17939F574D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472E2B940E09ED0F66824B53 /* Assets.xcassets */; };
-		13D52841EC68FA1048E8B1BD /* AccountConnectionsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B98EE505D656A0AEC97481E /* AccountConnectionsViewController.storyboard */; };
 		22EF697CB9312058FFDA4380 /* AccountConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53BE8F6F292002A66C2A19F /* AccountConnectionView.swift */; };
 		2B25F04B3CCF71F89AF797BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F529BF449C47860FB5EE8C /* LaunchScreen.storyboard */; };
-		49E90290A20DF41928C6CF8C /* AccountConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B1195116B7C37A10C885B /* AccountConnectionsViewController.swift */; };
+		2E0B1E7D3C624E86B61F8185 /* AccountConnectionsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D313C1CF7A461F2EB8AB8E /* AccountConnectionsViewController.storyboard */; };
+		5CE2CE4FA5EB2EC871D8ACA6 /* CryptoTransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6513DCCA0C0F73DECA94C /* CryptoTransferView.swift */; };
 		802DE25C6B622C71CF9740A1 /* BrokersConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485C58DFBF9FD3E16B536F9 /* BrokersConnectView.swift */; };
 		812B43A087B7F6E1253B79AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8C6A483C36D4A93DE797F /* Main.storyboard */; };
 		8FEA455B5E3A993A8A01FCED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E3F02EB25D4E81A273EA6 /* AppDelegate.swift */; };
+		90CB3C44AF48AFF5654DC7BE /* CryptoTransferViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D47907B3CDB0BA5601C78CC /* CryptoTransferViewController.storyboard */; };
 		9B62ECBA541F413FDF497EBA /* AccountConnectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A9458D8F5D1836E9104BA /* AccountConnectionsView.swift */; };
 		B6AC07C178DBA358AAD7FB48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673FF0B26D98AA9B624BF86 /* SceneDelegate.swift */; };
 		BA4275E040B8A4D80D1E5F2D /* MockBrokersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20F2B1B4FE3B52E5F11539 /* MockBrokersManager.swift */; };
 		C358DC4691B92BB4A275EBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A8AA8B1D85AFBE1FC71E5 /* ViewController.swift */; };
+		C51AB896927B8DF5C7C168F3 /* AccountConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC21308BC89D3B33E08F28 /* AccountConnectionsViewController.swift */; };
 		D326E4E182C93F8C3CB44EDA /* FrontLinkSDKPackage in Frameworks */ = {isa = PBXBuildFile; productRef = C2FF4247767D1D732AC70520 /* FrontLinkSDKPackage */; };
 		F2C13A1F51F924178E1DE245 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFD712FCCB9CFBEB8FD9557 /* Color+Extension.swift */; };
+		FE81863D1AA32FBA6D79242F /* CryptoTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A001D68F2D758961A883B4 /* CryptoTransferViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B98EE505D656A0AEC97481E /* AccountConnectionsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountConnectionsViewController.storyboard; sourceTree = "<group>"; };
 		2E6E8BBD76253DAB01A4FD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		330B1195116B7C37A10C885B /* AccountConnectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnectionsViewController.swift; sourceTree = "<group>"; };
 		4673FF0B26D98AA9B624BF86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		472E2B940E09ED0F66824B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72CC51E18FE0A1F7163201CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8485C58DFBF9FD3E16B536F9 /* BrokersConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokersConnectView.swift; sourceTree = "<group>"; };
+		84D6513DCCA0C0F73DECA94C /* CryptoTransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTransferView.swift; sourceTree = "<group>"; };
 		868A8AA8B1D85AFBE1FC71E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D47907B3CDB0BA5601C78CC /* CryptoTransferViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CryptoTransferViewController.storyboard; sourceTree = "<group>"; };
 		8D6BC8A7B4FE080D39A6F38C /* FrontLinkSDKTestApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FrontLinkSDKTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A001D68F2D758961A883B4 /* CryptoTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTransferViewController.swift; sourceTree = "<group>"; };
 		9B1A9458D8F5D1836E9104BA /* AccountConnectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnectionsView.swift; sourceTree = "<group>"; };
 		AA9E3F02EB25D4E81A273EA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B53BE8F6F292002A66C2A19F /* AccountConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnectionView.swift; sourceTree = "<group>"; };
+		B5DC21308BC89D3B33E08F28 /* AccountConnectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnectionsViewController.swift; sourceTree = "<group>"; };
 		BB37FD99E7982892F9F594DB /* AccountConnectionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConnectionsViewModel.swift; sourceTree = "<group>"; };
+		D3D313C1CF7A461F2EB8AB8E /* AccountConnectionsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountConnectionsViewController.storyboard; sourceTree = "<group>"; };
 		DA20F2B1B4FE3B52E5F11539 /* MockBrokersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBrokersManager.swift; sourceTree = "<group>"; };
 		DE4DA1D5FBDBF995E5B80466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEFD712FCCB9CFBEB8FD9557 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
@@ -65,12 +71,24 @@
 			path = AccountConnectionsView;
 			sourceTree = "<group>";
 		};
+		1930A289CA2F34C168368BE9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D3D313C1CF7A461F2EB8AB8E /* AccountConnectionsViewController.storyboard */,
+				B5DC21308BC89D3B33E08F28 /* AccountConnectionsViewController.swift */,
+				8D47907B3CDB0BA5601C78CC /* CryptoTransferViewController.storyboard */,
+				99A001D68F2D758961A883B4 /* CryptoTransferViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		4A1A0B6CF43C6BF6AD05211F /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
 				0855EC378F39DDB709B2A880 /* AccountConnectionsView */,
 				DCF1A349C6887E309942013C /* AccountConnectionView */,
 				F00A8F2C2E63139D27C709D7 /* BrokersConnectView */,
+				B8E5F9F517E9E87E0A67EB10 /* CryptoTransfer */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -94,8 +112,6 @@
 		AA94A136050CE96EBE98BA1F /* FrontLinkSDKTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				0B98EE505D656A0AEC97481E /* AccountConnectionsViewController.storyboard */,
-				330B1195116B7C37A10C885B /* AccountConnectionsViewController.swift */,
 				AA9E3F02EB25D4E81A273EA6 /* AppDelegate.swift */,
 				472E2B940E09ED0F66824B53 /* Assets.xcassets */,
 				2E6E8BBD76253DAB01A4FD01 /* Info.plist */,
@@ -105,8 +121,17 @@
 				868A8AA8B1D85AFBE1FC71E5 /* ViewController.swift */,
 				8D77DEA4AC6CCFEFF8C87E3B /* Extensions */,
 				4A1A0B6CF43C6BF6AD05211F /* SwiftUI */,
+				1930A289CA2F34C168368BE9 /* UIKit */,
 			);
 			path = FrontLinkSDKTestApp;
+			sourceTree = "<group>";
+		};
+		B8E5F9F517E9E87E0A67EB10 /* CryptoTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				84D6513DCCA0C0F73DECA94C /* CryptoTransferView.swift */,
+			);
+			path = CryptoTransfer;
 			sourceTree = "<group>";
 		};
 		DCF1A349C6887E309942013C /* AccountConnectionView */ = {
@@ -165,7 +190,7 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					1C589265A9D877FCE0D9B33D = {
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -194,8 +219,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D52841EC68FA1048E8B1BD /* AccountConnectionsViewController.storyboard in Resources */,
+				2E0B1E7D3C624E86B61F8185 /* AccountConnectionsViewController.storyboard in Resources */,
 				0F0FBDEAAB7A7A17939F574D /* Assets.xcassets in Resources */,
+				90CB3C44AF48AFF5654DC7BE /* CryptoTransferViewController.storyboard in Resources */,
 				2B25F04B3CCF71F89AF797BB /* LaunchScreen.storyboard in Resources */,
 				812B43A087B7F6E1253B79AE /* Main.storyboard in Resources */,
 			);
@@ -210,11 +236,13 @@
 			files = (
 				22EF697CB9312058FFDA4380 /* AccountConnectionView.swift in Sources */,
 				9B62ECBA541F413FDF497EBA /* AccountConnectionsView.swift in Sources */,
-				49E90290A20DF41928C6CF8C /* AccountConnectionsViewController.swift in Sources */,
+				C51AB896927B8DF5C7C168F3 /* AccountConnectionsViewController.swift in Sources */,
 				0396243DF3B9B22B9D44D5BD /* AccountConnectionsViewModel.swift in Sources */,
 				8FEA455B5E3A993A8A01FCED /* AppDelegate.swift in Sources */,
 				802DE25C6B622C71CF9740A1 /* BrokersConnectView.swift in Sources */,
 				F2C13A1F51F924178E1DE245 /* Color+Extension.swift in Sources */,
+				5CE2CE4FA5EB2EC871D8ACA6 /* CryptoTransferView.swift in Sources */,
+				FE81863D1AA32FBA6D79242F /* CryptoTransferViewController.swift in Sources */,
 				BA4275E040B8A4D80D1E5F2D /* MockBrokersManager.swift in Sources */,
 				B6AC07C178DBA358AAD7FB48 /* SceneDelegate.swift in Sources */,
 				C358DC4691B92BB4A275EBF5 /* ViewController.swift in Sources */,
@@ -276,7 +304,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -296,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -342,7 +370,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -356,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,7 +459,7 @@
 			repositoryURL = "https://github.com/FrontFin/front-b2b-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.0;
+				minimumVersion = 1.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

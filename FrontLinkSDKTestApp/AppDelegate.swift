@@ -12,9 +12,6 @@ import FrontLinkSDK
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        GetFrontLinkSDK.setup(catalogLink: "")
-        
         let customNavBarAppearance = UINavigationBarAppearance()
         customNavBarAppearance.configureWithOpaqueBackground()
         customNavBarAppearance.backgroundColor = UIColor.white
