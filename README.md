@@ -9,14 +9,14 @@ or download `FrontLinkSDK.xcframework` from the latest release https://github.co
 
 ## Launch Catalog
 
-The app should use a proprietary API that fetches a `catalogLink` with Front API using your Client-ID and Client-Secret for each brokerage account connection session.
-Get catalog link API: https://docs.getfront.com/reference/get_api-v1-cataloglink
+The app should use a proprietary API that fetches a `linkToken` with Mesh API using your Client-ID and Client-Secret for each brokerage account connection or crypto transfer session.
+Get Link token API: https://docs.meshconnect.com/reference/post_api-v1-linktoken
 
-Set up `GetFrontLinkSDK` with the `catalogLink`
+Set up `GetFrontLinkSDK` with the `linkToken`
 
 ```swift
-        let catalogLink = ...
-        GetFrontLinkSDK.setup(catalogLink: catalogLink)
+        let linkToken = ...
+        GetFrontLinkSDK.setup(linkToken: linkToken)
 ```
 
 ## UIKit
@@ -107,7 +107,7 @@ Some brokerage companies allow to have subaccounts, in case you connect an accou
 
 ### Implement this function to handle crypto transfers.
 
-For crypto transfers you need to get catalog link with parameters: https://docs.getfront.com/reference/post_api-v1-cataloglink
+For crypto transfers you need to get link token with `transferOptions` body parameter, see https://docs.meshconnect.com/reference/post_api-v1-linktoken for reference
 
 ```swift
     func transferFinished(_ transfer: FrontLinkSDK.TransferFinished) {

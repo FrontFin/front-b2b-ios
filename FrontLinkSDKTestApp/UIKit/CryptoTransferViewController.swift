@@ -14,8 +14,8 @@ class CryptoTransferViewController: UIViewController {
     internal var brokerConnectViewController: UIViewController?
 
     @IBAction func connectDestAcc(_ sender: Any) {
-        guard let catalogLink = GetFrontLinkSDK.catalogLink, !catalogLink.isEmpty else {
-            fatalError("FrontLinkSDK is not set up properly with a catalogLink")
+        guard GetFrontLinkSDK.isSetUp else {
+            fatalError("FrontLinkSDK is not set up properly")
         }
         brokerConnectViewController = GetFrontLinkSDK.brokerConnectWebViewController(brokersManager: brokersManager, delegate: self)
         guard let brokerConnectViewController else { return }

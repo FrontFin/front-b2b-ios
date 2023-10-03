@@ -25,8 +25,6 @@ internal struct AccountConnectionItemViewModel: AccountConnectionViewModel {
 
     var icon: UIImage? { broker.icon }
 
-    var brokerAuthentication: FrontLinkSDK.BrokerAuthentication { broker.authentication }
-
     fileprivate let broker: BrokerAccountable
 
     init(broker: BrokerAccountable) {

@@ -10,14 +10,14 @@ import FrontLinkSDK
 import SwiftUI
 
 class ViewController: UIViewController, UITextFieldDelegate {
-    @IBOutlet var catalogLinkTextField: UITextField!
+    @IBOutlet var linkTokenTextField: UITextField!
     @IBOutlet var swiftUIButton: UIButton!
     @IBOutlet var uiKitButton: UIButton!
 
     private var brokersManager = GetFrontLinkSDK.defaultBrokersManager
 
     override func viewDidLoad() {
-        catalogLinkTextField.delegate = self
+        linkTokenTextField.delegate = self
         [swiftUIButton, uiKitButton].forEach(){ button in
             guard let button = button else { return }
             button.layer.borderColor = Color.black.cgColor
@@ -27,17 +27,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        guard let urlString = catalogLinkTextField.text,
-              let url = URL(string: urlString),
-              UIApplication.shared.canOpenURL(url) else {
+        GetFrontLinkSDK.setup(linkToken: linkTokenTextField.text)
+        guard GetFrontLinkSDK.isSetUp else {
             swiftUIButton.isEnabled = false
             uiKitButton.isEnabled = false
             return false
         }
         swiftUIButton.isEnabled = true
         uiKitButton.isEnabled = true
-        GetFrontLinkSDK.setup(catalogLink: urlString)
-        catalogLinkTextField.resignFirstResponder()
+        linkTokenTextField.resignFirstResponder()
         return true
     }
     
@@ -55,7 +53,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             vc.modalPresentationStyle = .fullScreen
             present(vc, animated: true)
         }
-        catalogLinkTextField.text = nil
+        linkTokenTextField.text = nil
     }
 
     @IBAction func uiKitFlow(_ sender: Any) {
@@ -66,7 +64,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let navVc = UINavigationController(rootViewController: vc)
         navVc.modalPresentationStyle = .fullScreen
         present(navVc, animated: true)
-        catalogLinkTextField.text = nil
+        linkTokenTextField.text = nil
     }
 
 }

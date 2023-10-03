@@ -46,7 +46,7 @@
                                     <constraint firstItem="iL8-Ff-QCZ" firstAttribute="height" secondItem="hix-gx-soz" secondAttribute="height" id="ZAl-P8-Khd"/>
                                 </constraints>
                             </stackView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Catalog Link" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="LLr-Ac-UgA">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Link Token" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="LLr-Ac-UgA">
                                 <rect key="frame" x="30" y="117" width="333" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="URL" textContentType="url"/>
@@ -74,7 +74,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="0Fo-G1-xX6"/>
                     <connections>
-                        <outlet property="catalogLinkTextField" destination="LLr-Ac-UgA" id="ZKH-la-dUw"/>
+                        <outlet property="linkTokenTextField" destination="LLr-Ac-UgA" id="ZKH-la-dUw"/>
                         <outlet property="swiftUIButton" destination="hix-gx-soz" id="Z6J-LQ-b0Y"/>
                         <outlet property="uiKitButton" destination="iL8-Ff-QCZ" id="Ltn-QS-FkB"/>
                     </connections>

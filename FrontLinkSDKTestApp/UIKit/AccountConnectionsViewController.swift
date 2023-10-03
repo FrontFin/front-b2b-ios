@@ -56,10 +56,8 @@ class AccountConnectionsViewController: UIViewController {
     }
 
     @objc private func connectBrokers() {
-        guard let urlString = GetFrontLinkSDK.catalogLink,
-              let url = URL(string: urlString),
-              UIApplication.shared.canOpenURL(url) else {
-            fatalError("FrontLinkSDK is not set up properly with a catalogLink")
+        guard GetFrontLinkSDK.isSetUp else {
+            fatalError("FrontLinkSDK is not set up properly")
         }
         brokerConnectViewController = GetFrontLinkSDK.brokerConnectWebViewController(brokersManager: brokersManager, delegate: self)
         guard let brokerConnectViewController else { return }

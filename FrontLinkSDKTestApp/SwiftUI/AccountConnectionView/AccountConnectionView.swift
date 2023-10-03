@@ -14,7 +14,6 @@ protocol AccountConnectionViewModel {
     var accountId: String { get }
     var accountName: String? { get }
     var icon: UIImage? { get }
-    var brokerAuthentication: BrokerAuthentication { get }
 }
 
 struct AccountConnectionView: View {
