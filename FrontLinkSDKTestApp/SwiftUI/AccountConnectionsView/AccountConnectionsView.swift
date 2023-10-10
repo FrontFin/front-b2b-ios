@@ -16,16 +16,15 @@ struct AccountConnectionsView: View {
     
     var body: some View {
         NavigationView {
-            ZStack {
-                ScrollView {
+            VStack {
+                List {
                     ForEach(viewModel.accounts, id: \.accountId) { accountViewModel in
                         AccountConnectionView(viewModel: accountViewModel)
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.horizontal, 16)
-                        Spacer()
-                            .frame(width: 15)
+                            .listRowInsets(EdgeInsets())
                     }
                 }
+                .listStyle(PlainListStyle())
                 .background(Color.background.ignoresSafeArea())
                 if viewModel.isLoading {
                     FrontLoadingView()

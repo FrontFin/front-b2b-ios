@@ -35,13 +35,32 @@ extension CryptoTransferViewController: BrokerConnectViewControllerDelegate {
     func transferFinished(_ transfer: FrontLinkSDK.TransferFinished) {
         guard let brokerConnectViewController else { return }
         var message: String
+        var title: String
         switch transfer.status {
         case .transferFinishedSuccess:
+            title = "Transfer finished"
             message = "Transfer ID:\(transfer.txId ?? "")\nnetworkId: \(transfer.networkId ?? "")\nAmount:\(transfer.amount ?? 0)\nSymbol:\(transfer.symbol ?? "")"
         case .transferFinishedError:
-            message = "Transfer failed: \(transfer.errorMessage ?? "")"
+            title = "Transfer failed"
+            message = transfer.errorMessage ?? ""
+        @unknown default:
+            title = "Transfer finished"
+            message = "Unexpected status"
         }
-        UIAlertController.presentAlert(title: "Transfer Finished", message: message, alignment: .left, presenter: brokerConnectViewController)
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.alignment = .left
+        let messageText = NSAttributedString(
+            string: message,
+            attributes: [
+                NSAttributedString.Key.paragraphStyle: paragraphStyle,
+                NSAttributedString.Key.foregroundColor : UIColor.darkGray,
+                NSAttributedString.Key.font : UIFont.systemFont(ofSize: 12)
+            ]
+        )
+        alert.setValue(messageText, forKey: "attributedMessage")
+        alert.addAction(UIAlertAction(title: "OK", style: .cancel))
+        brokerConnectViewController.present(alert, animated: true)
     }
     
     func closeViewController(withConfirmation: Bool) {

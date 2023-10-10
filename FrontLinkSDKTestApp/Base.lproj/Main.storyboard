@@ -48,6 +48,7 @@
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Link Token" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="LLr-Ac-UgA">
                                 <rect key="frame" x="30" y="117" width="333" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Link Token"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="URL" textContentType="url"/>
                                 <userDefinedRuntimeAttributes>

@@ -38,7 +38,7 @@ final class AccountConnectionsViewModel: ObservableObject, AccountConnectionsVie
 
     @Published var isLoading: Bool = false
 
-    init(brokersManager: AddBrokersManaging,
+    init(brokersManager: BrokersManaging,
          closeBlock: (() -> Void)? = nil) {
         self.brokersManager = brokersManager
         self.closeBlock = closeBlock
@@ -47,12 +47,12 @@ final class AccountConnectionsViewModel: ObservableObject, AccountConnectionsVie
     func getAccounts() {
         self.accounts = brokersManager.brokers.map { AccountConnectionItemViewModel(broker: $0) }
     }
-
+    
     func close() {
         closeBlock?()
     }
 
-    private let brokersManager: AddBrokersManaging
+    private let brokersManager: BrokersManaging
 
     private let closeBlock: (() -> Void)?
 }

@@ -60,7 +60,7 @@ final class MockBrokerAccount: BrokerAccountable {
     }
 }
 
-final class MockBrokersManager: AddBrokersManaging {
+final class MockBrokersManager: BrokersManaging {
     var brokers: [BrokerAccountable] = [
         MockBrokerAccount(id: "1", accountName: "Test 1", brokerType: ""),
         MockBrokerAccount(id: "2", accountName: "Test 2", brokerType: ""),
@@ -70,4 +70,5 @@ final class MockBrokersManager: AddBrokersManaging {
     func saveBrokers() {}
     func add(broker account: BrokerAccountable) {}
     func add(brokers: [BrokerAccountable]) {}
+    func remove(broker: BrokerAccountable) {}
 }

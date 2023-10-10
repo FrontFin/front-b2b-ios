@@ -28,7 +28,6 @@ class AccountConnectionsViewController: UIViewController {
     
     @IBOutlet private weak var collectionView: UICollectionView!
 
-    // You can implement your own manager. Just inherit the `AddBrokersManaging` protocol for your entity.
     private var brokersManager = GetFrontLinkSDK.defaultBrokersManager
     internal var brokerConnectViewController: UIViewController?
     private var brokers: [BrokerAccountable] = [] {
@@ -41,6 +40,23 @@ class AccountConnectionsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let layout = UICollectionViewCompositionalLayout() { sectionIndex, layoutEnvironment in
+            
+            var configuration = UICollectionLayoutListConfiguration(appearance: .plain)
+            configuration.trailingSwipeActionsConfigurationProvider = { indexPath in
+                let del = UIContextualAction(style: .destructive, title: "Delete") {
+                    [weak self] action, view, completion in
+                    self?.deleteBroker(at: indexPath)
+                    completion(true)
+                }
+                return UISwipeActionsConfiguration(actions: [del])
+            }
+            configuration.headerMode = .none
+            let section = NSCollectionLayoutSection.list(using: configuration, layoutEnvironment: layoutEnvironment)
+            return section
+        }
+        collectionView.collectionViewLayout = layout
+        
         brokerListUpdated()
         NotificationCenter.default.addObserver(self, selector: #selector(brokerListUpdated), name: .brokerListUpdated, object: nil)
     }
@@ -50,11 +66,22 @@ class AccountConnectionsViewController: UIViewController {
 
         var items: [UIBarButtonItem] = []
         
-        items.append(UIBarButtonItem(image: UIImage(systemName: "plus"), style: .plain, target: self, action: #selector(connectBrokers)))
+        let plusButton = UIBarButtonItem(image: UIImage(systemName: "plus"), style: .plain, target: self, action: #selector(connectBrokers))
+        plusButton.accessibilityIdentifier = "plus"
+        items.append(plusButton)
         navigationItem.rightBarButtonItems = items
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "chevron.left"), style: .plain, target: self, action: #selector(dismissViewController))
     }
 
+    private func deleteBroker(at indexPath: IndexPath) {
+        
+        guard indexPath.row < brokersManager.brokers.count else {
+            return
+        }
+        let broker = brokersManager.brokers[indexPath.row]
+        brokersManager.remove(broker: broker)
+    }
+    
     @objc private func connectBrokers() {
         guard GetFrontLinkSDK.isSetUp else {
             fatalError("FrontLinkSDK is not set up properly")
@@ -136,12 +163,4 @@ extension AccountConnectionsViewController: UICollectionViewDataSource, UICollec
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.frame.width, height: 120)
     }
-
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        let broker = brokers[indexPath.row]
-//        let viewModel = HoldingsViewModel(broker: broker, brokersManager: brokersManager)
-//        let holdingsView = HoldingsView(viewModel: viewModel)
-//        let vc = UIHostingController(rootView: holdingsView)
-//        navigationController?.pushViewController(vc, animated: true)
-//    }
 }

@@ -157,3 +157,11 @@ For crypto transfers you need to get link token with `transferOptions` body para
 `GetFrontLinkSDK.defaultBrokersManager` stores the connected brokerage account data in the keychain and allows to load it.
 `GetFrontLinkSDK.defaultBrokersManager.brokers` is an actual array of connected brokerage accounts.
 
+## Delete account
+
+In order to delete a connected brokerage account, the [Remove connection API]https://docs.meshconnect.com/reference/delete_api-v1-account must be called, then the account can be deleted in iOS SDK
+
+```swift
+    let broker = brokersManager.brokers[index]
+    brokersManager.remove(broker: broker)
+```
