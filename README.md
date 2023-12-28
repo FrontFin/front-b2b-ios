@@ -2,6 +2,12 @@
 
 Let your users to connect a brokerage accounts and execute crypto transfers via Front iOS SDK.
 
+### 📌 Deprecation Notice
+
+As of Dec 7, 2023 this package is no longer maintained and has been superseded by a new version. For the latest features, improvements, and bug fixes, please use our updated package: [mesh-ios-sdk](https://github.com/FrontFin/mesh-ios-sdk).
+
+We encourage all users to migrate to the new package for continued support and updates.
+
 ## Setup
 
 Add package dependency `FrontLinkSDKPackage` https://github.com/FrontFin/front-b2b-ios-sdk
